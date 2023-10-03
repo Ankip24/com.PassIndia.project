@@ -11,13 +11,13 @@ import globalObject.ObjectPage;
 
 
 
-public class NewApplicationPage {
+public class Anki_NewApplicationPage {
 	//public WebDriver driver1 ;
 	public static WebDriver driver = ObjectPage.getWebDriver();
 	//public WebDriver driver;
 
 	// Initialisation
-	public NewApplicationPage(WebDriver driver) {
+	public Anki_NewApplicationPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 		
