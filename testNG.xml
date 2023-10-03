@@ -10,8 +10,11 @@
 
 		<classes>
 			
-			<class name="testCases.TC_enquiryForm_001"></class>
-			<class name="testCases.TC__reissuepassport_005"></class>
+			<!--<class name="testCases.TC_Rissuepassport_005"/>-->
+			<class name="testCases.TC_newapplication_006"/>
+			
+			
+			
 
 		</classes>
 

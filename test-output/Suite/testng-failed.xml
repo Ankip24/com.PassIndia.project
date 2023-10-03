@@ -6,14 +6,20 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testCases.TC_newApplication_003">
+      <class name="testCases.TC_newapplication_006">
         <methods>
-          <include name="fillingServiceRequired"/>
-          <include name="newApplicationClick"/>
           <include name="tearDown"/>
           <include name="launchApplication"/>
+          <include name="risuuepa"/>
         </methods>
-      </class> <!-- testCases.TC_newApplication_003 -->
+      </class> <!-- testCases.TC_newapplication_006 -->
+      <class name="testCases.TC_Rissuepassport_005">
+        <methods>
+          <include name="tearDown"/>
+          <include name="launchApplication"/>
+          <include name="risuuepa"/>
+        </methods>
+      </class> <!-- testCases.TC_Rissuepassport_005 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

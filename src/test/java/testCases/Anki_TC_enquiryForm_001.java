@@ -2,11 +2,11 @@ package testCases;
 
 import org.testng.annotations.Test;
 
-import com.passIndia.pageObject.homepage;
+import com.passIndia.pageObject.Anki_homepage;
 
 import Utilities.BaseTest;
 
-public class TC_enquiryForm_001 extends BaseTest // testnottashion perform a cycle @before @test @afterclass---Communiaction happens help of extend class
+public class Anki_TC_enquiryForm_001 extends BaseTest // testnottashion perform a cycle @before @test @afterclass---Communiaction happens help of extend class
 {
 	
     
@@ -16,7 +16,7 @@ public class TC_enquiryForm_001 extends BaseTest // testnottashion perform a cyc
 		//ExtentTest test = ObjectPage.getExtentTest();
 	    //test.log(Status.INFO, "Enquiry Form Test");
 		
-		homepage hp = new homepage(driver); // object create for home page 
+		Anki_homepage hp = new Anki_homepage(driver); // object create for home page 
 		
 		hp.enterName(); // object. refrence of method name of homepage 
 		Thread.sleep(1000);

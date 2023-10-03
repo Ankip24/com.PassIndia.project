@@ -2,14 +2,14 @@ package testCases;
 
 import org.testng.annotations.Test;
 
-import com.passIndia.pageObject.homepage;
+import com.passIndia.pageObject.Anki_homepage;
 
 import Utilities.BaseTest;
 
-public class TC_linkValidation_002 extends BaseTest {
+public class Anki_TC_linkValidation_002 extends BaseTest {
 	@Test
 	public void linkValidation() {
-		homepage hp = new homepage(driver);
+		Anki_homepage hp = new Anki_homepage(driver);
 		hp.linkValidation(hp.NewApplication);
 		hp.linkValidation(hp.ReissuePassport);
 		hp.linkValidation(hp.TrackApplication);
