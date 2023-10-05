@@ -10,13 +10,13 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class RissuePassportPage {
+public class Anki_RissuePassportPage {
 	public static WebDriver driver; //= ObjectPage.getWebDriver();
 	//ExtentTest test = ObjectPage.getExtentTest();
 
 	// Initialization
-	public RissuePassportPage(WebDriver rdriver) {
-		this.driver = rdriver;
+	public Anki_RissuePassportPage(WebDriver rdriver) {
+		driver = rdriver;
 		PageFactory.initElements(rdriver, this);
 	}
 

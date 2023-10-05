@@ -15,14 +15,14 @@ import com.aventstack.extentreports.ExtentTest;
 
 import globalObject.ObjectPage;
 
-public class homepage {
+public class Anki_homepage {
 
 	public static WebDriver driver; //= ObjectPage.getWebDriver();
 	//ExtentTest test = ObjectPage.getExtentTest();
 
 	// Initialization
-	public homepage(WebDriver rdriver) {
-		driver = rdriver;
+	public Anki_homepage(WebDriver rdriver) {
+		this.driver = rdriver;
 		PageFactory.initElements(rdriver, this);
 	}
 
