@@ -6,7 +6,7 @@ import com.passIndia.pageObject.Anki_homepage;
 
 import Utilities.BaseTest;
 
-public class TC_linkValidation_002 extends BaseTest {
+public class Anki_TC_linkValidation_002 extends BaseTest {
 	@Test
 	public void linkValidation() {
 		Anki_homepage hp = new Anki_homepage(driver);

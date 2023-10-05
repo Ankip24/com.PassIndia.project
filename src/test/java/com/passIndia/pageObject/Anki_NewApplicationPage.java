@@ -25,7 +25,7 @@ public class Anki_NewApplicationPage {
 	@FindBy(xpath="//select[@name='1_application_for']")
 	WebElement applicationfor;
 
-	@FindBy(xpath="//select[@name='sel_type_appl']")
+	@FindBy(xpath="(//select[@class='form-control select'])[1]")
 	WebElement TypeofApplication;
 
 	// Usage
