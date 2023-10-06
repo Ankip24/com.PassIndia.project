@@ -10,7 +10,7 @@ public class ExtentReporter {
 	
 	public static ExtentReports getReport() {
 		
-		String reportPath = System.getProperty("user.dir")+"\\ExtentReport\\Report\\report.html";// at end we are assigne the name wise of project befor the html
+		String reportPath = System.getProperty("user.dir")+"\\ExtentReport\\Report\\vaibhavi_Enquiryform.html";// at end we are assigne the name wise of project befor the html
 		System.out.println("Html Report File Path"+reportPath);
 		ExtentSparkReporter reporter = new ExtentSparkReporter(reportPath);
 		objExtentReports = new ExtentReports();
